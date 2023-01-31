@@ -1,12 +1,12 @@
-# Uphold Bot
+# Crypto tracking Bot
 
 # Assessment Challenge
 
-## Phase 1 (mandatory)
+## Phase 1 
 
 The bot is able to fetch WBTC-USD exchange rate every 5 seconds from the ticker api. USD is the currency used. The bot retrieves the ask values of the asked pair. The pair string (WBTC-USD, ...) is stored in a text file (pairs.txt). The initial values get fetched and stored in a json file for comparison with the fetched values. The bot will alert you if the price goes up or below a boundary percentage on the initial value. This oscillation percentage is set by default to 0.01%.
 
-## Phase 2 (optional)
+## Phase 2 
 
 ### ● Handle multiple currency pairs at the same time.
 
@@ -32,7 +32,7 @@ When setting up the bot, The bot will ask you configuration questions that accep
 
 I have created a test suite for the database integration and some of the index.js functions using jest. If I needed to develop this bot further to production. I would increase coverage by adding test suites for the index.js and the configuration.js files. I would use the mocked functions in mock folder to accomplish this using jest.
 
-## Phase 3 (Bonus)
+## Phase 3 
 
 ### ● Dockerize your application.
 
